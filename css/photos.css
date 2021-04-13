@@ -1,0 +1,19 @@
+img{
+    width: 29%;
+    margin: calc(10%/6);
+    filter: grayscale(100%);
+}
+
+img:hover{
+    filter: grayscale(0%);
+    transition: 2s;
+}
+
+h1{
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 2px solid #f1f1f1;
+    width: 30%;
+    margin-left: calc(10%/6);
+    padding: 20px 0;
+}
